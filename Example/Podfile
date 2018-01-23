@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CZQLessonServerKit_Example' do
+  pod 'CZQLessonServerKit', :path => '../'
+
+  target 'CZQLessonServerKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
