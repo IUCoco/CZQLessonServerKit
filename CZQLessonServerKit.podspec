@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZQLessonServerKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'CZQLessonServerKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,16 +33,16 @@ TODO: server组件 CZQLessonServerKit.
 #s.source_files = 'CZQLessonServerKit/Classes/**/*'
 
     s.subspec 'Http' do |czqHttp|
-    czqHttp.source_files = 'CZQLessonCategoryKit/Classes/Http/**/*'
+    czqHttp.source_files = 'CZQLessonServerKit/Classes/Http/**/*'
     czqHttp.dependency 'AFNetworking'
     end
 
     s.subspec 'Interest' do |czqInterest|
-    czqInterest.source_files = 'CZQLessonCategoryKit/Classes/Interest/**/*'
+    czqInterest.source_files = 'CZQLessonServerKit/Classes/Interest/**/*'
     end
 
     s.subspec 'Network' do |czqNetwork|
-    czqNetwork.source_files = 'CZQLessonCategoryKit/Classes/Network/**/*'
+    czqNetwork.source_files = 'CZQLessonServerKit/Classes/Network/**/*'
     end
   
   # s.resource_bundles = {
