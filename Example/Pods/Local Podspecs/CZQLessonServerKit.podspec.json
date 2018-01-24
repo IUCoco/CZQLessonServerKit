@@ -1,8 +1,8 @@
 {
   "name": "CZQLessonServerKit",
-  "version": "0.1.0",
-  "summary": "A short description of CZQLessonServerKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "CZQLessonServerKit.",
+  "description": "TODO: server组件 CZQLessonServerKit.",
   "homepage": "https://github.com/IUCoco/CZQLessonServerKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,28 @@
   },
   "source": {
     "git": "https://github.com/IUCoco/CZQLessonServerKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CZQLessonServerKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Http",
+      "source_files": "CZQLessonCategoryKit/Classes/Http/**/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "Interest",
+      "source_files": "CZQLessonCategoryKit/Classes/Interest/**/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "CZQLessonCategoryKit/Classes/Network/**/*"
+    }
+  ]
 }
