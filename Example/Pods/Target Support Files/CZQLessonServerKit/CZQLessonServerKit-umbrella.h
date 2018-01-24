@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "XMGHttpManager.h"
+#import "XMGInterestManager.h"
+#import "XMGNetworkManager.h"
 
 FOUNDATION_EXPORT double CZQLessonServerKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CZQLessonServerKitVersionString[];

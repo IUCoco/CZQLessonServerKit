@@ -14,14 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CZQLessonServerKit (0.1.2):
-    - CZQLessonServerKit/Http (= 0.1.2)
-    - CZQLessonServerKit/Interest (= 0.1.2)
-    - CZQLessonServerKit/Network (= 0.1.2)
-  - CZQLessonServerKit/Http (0.1.2):
+  - CZQLessonServerKit (0.1.3):
+    - CZQLessonServerKit/Http (= 0.1.3)
+    - CZQLessonServerKit/Interest (= 0.1.3)
+    - CZQLessonServerKit/Network (= 0.1.3)
+  - CZQLessonServerKit/Http (0.1.3):
     - AFNetworking
-  - CZQLessonServerKit/Interest (0.1.2)
-  - CZQLessonServerKit/Network (0.1.2)
+  - CZQLessonServerKit/Interest (0.1.3)
+  - CZQLessonServerKit/Network (0.1.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CZQLessonServerKit: 950e2e3067ee53ba050dc3a3a6cf1db2dbbe6ce5
+  CZQLessonServerKit: b37540591fd76a126b2a37435dee56674ebf78ba
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
 
